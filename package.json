@@ -1,0 +1,20 @@
+{
+  "name": "hackntell",
+  "version": "1.0.0",
+  "description": "A simple project in Javascript",
+  "main": "index.js",
+  "author": "MEDIGO GmbH",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^4",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1"
+  }
+}

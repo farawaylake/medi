@@ -1,0 +1,50 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input {
+    border-radius: 5px;
+}
+
+*{
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.field {
+	border: 0.4px solid #979797;
+	font-size:20px;
+	width: 99%;
+	padding-left: 1%; 
+	
+}
+
+.error_message {
+	color: red;
+	font-size:12px;
+}
+
+.button {
+	border: 0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+	background-color: #0ABEA0;
+	color: white;
+	height: 30px;
+	box-shadow: 0px 2px #117160;
+}
+
+.label {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.container {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}

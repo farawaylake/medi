@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+	<link rel="stylesheet" type="text/css" href="stylish.css">
+
+	<title></title>
+  </head>
+  <body>
+	<div class="container">
+		<form action="/hola" method="post">
+		
+			<div class="label">Name</div>
+			<input name="name" class="field" required="required"></input>
+			<div class="error_message" id="name_error"></div>
+			</br>
+			
+			<div class="label">Date of birth</div>
+			<input name="birthday" type="date" class="field" required="required" min="1900-01-01"></input>
+			<div class="error_message" id="birthday_error"></div>
+			</br>
+			
+			<input type="submit" value="Go" class="button"></input>
+		</form>
+	</div>
+  </body>
+</html>
